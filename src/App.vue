@@ -6,8 +6,9 @@ import Link from './components/Link.vue'
       <div class="p-7 dark:bg-black dark:text-white">
             <div>
                   <h1 class="text-xl reactive-blue-text">churuz</h1>
-                  <h1 class="text-3xl">link.chu.fyi</h1>
+                  <h1 class="text-3xl">link.ruz.fyi</h1>
                   <p class="text-sm">Links to my stuff</p>
+                  <p class="text-sm reactive-blue-text decoration-solid"><a href="mailto:chu@ruz.fyi">chu@ruz.fyi</a></p>
             </div>
       </div>
       <hr class="border-2 border-black dark:border-gray-400"/>
@@ -21,32 +22,32 @@ import Link from './components/Link.vue'
                   title="Twitter"
                   description="I might say something, probably won't"
                   url="https://x.com/churruzzz"
-                  />
+            />
             <Link
                   title="BlueSky"
                   description="I check Twitter but I don't really post on it"
                   url="https://bsky.app/profile/bsky.chu.ruz.fyi"
-                  />
+            />
             <Link
                   title="Steam"
                   description="Check out what I play or friend me"
-                  url="https://steamcommunity.com/profiles/76561198297138653/"
-                  />
+                  url="https://steamcommunity.com/id/churuzfyi/"
+            />
             <Link
                   title="Gunpla"
                   description="I post pictures of my gunpla on here sometimes"
                   url="https://www.instagram.com/z.chu.ruzzz/"
-                  />
+            />
             <Link
                   title="Photos"
                   description="I post photos I like here but I'll probably forget to"
                   url="https://www.instagram.com/photos.chu.ruzzz/"
-                  />
+            />
             <Link
                   title="YouTube Music"
                   description="I have a lot of playlists"
                   url="https://music.youtube.com/@chu.ruzzzz"
-                  />
+            />
       </div>
       <div class="font-mono text-sm text-center sm:text-left sm:m-7 dark:text-white dark:bg-black">
             <p>Made with <span class="reactive-blue-text"><a href="https://vuejs.org/" target="_blank">Vue</a></span> and <span class="reactive-blue-text"><a href="https://deno.com/" target="_blank">Deno</a></span></p>
