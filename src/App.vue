@@ -25,7 +25,7 @@ import Link from './components/Link.vue'
             <Link
                   title="BlueSky"
                   description="I check Twitter but I don't really post on it"
-                  url="https://bsky.app/profile/chu.ruzzz.dev"
+                  url="https://bsky.app/profile/bsky.chu.ruz.fyi"
                   />
             <Link
                   title="Steam"
