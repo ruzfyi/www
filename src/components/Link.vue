@@ -28,6 +28,6 @@
       @apply border-gray-400 border;
 }
 .link-container {
-      @apply font-mono border-2 border-black p-3 hover:bg-blue-800 hover:text-white hover:border-white transition-all;
+      @apply font-mono border-2 border-black p-3 hover:bg-blue-800 hover:text-white hover:border-white transition-all dark:bg-black dark:text-white dark:border-white;
 }
 </style>

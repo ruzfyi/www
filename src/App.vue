@@ -3,13 +3,15 @@ import Link from './components/Link.vue'
 </script>
 
 <template>
-      <div class="p-7 font-mono">
-            <h1 class="text-xl text-blue-800">churuz</h1>
-            <h1 class="text-3xl">link.chu.fyi</h1>
-            <p class="text-sm">Links to my stuff</p>
+      <div class="p-7 dark:bg-black dark:text-white">
+            <div>
+                  <h1 class="text-xl reactive-blue-text">churuz</h1>
+                  <h1 class="text-3xl">link.chu.fyi</h1>
+                  <p class="text-sm">Links to my stuff</p>
+            </div>
       </div>
-      <hr class="border-2 border-black"/>
-      <div class="m-7 flex flex-col gap-3">
+      <hr class="border-2 border-black dark:border-gray-400"/>
+      <div class="m-7 sm:max-w-md flex flex-col gap-3 dark:bg-black">
             <Link
                   title="GitHub"
                   description="My GitHub where all my projects are stored"
@@ -46,8 +48,16 @@ import Link from './components/Link.vue'
                   url="https://music.youtube.com/@chu.ruzzzz"
                   />
       </div>
-      <div class="font-mono text-sm text-center">
-            <p>Made with <span class="text-blue-800"><a href="https://vuejs.org/" target="_blank">Vue</a></span> and <span class="text-blue-800"><a href="https://deno.com/" target="_blank">Deno</a></span></p>
-            <p>Source at <span class="text-blue-800"><a href="https://github.com/churuzzz/link/" target="_blank">github.com/churuzzz/link</a></span></p>
+      <div class="font-mono text-sm text-center sm:text-left sm:m-7 dark:text-white dark:bg-black">
+            <p>Made with <span class="reactive-blue-text"><a href="https://vuejs.org/" target="_blank">Vue</a></span> and <span class="reactive-blue-text"><a href="https://deno.com/" target="_blank">Deno</a></span></p>
+            <p>Source at <span class="reactive-blue-text"><a href="https://github.com/churuzzz/link/" target="_blank">github.com/churuzzz/link</a></span></p>
       </div>
 </template>
+
+<style scoped>
+@reference "tailwindcss";
+
+.reactive-blue-text {
+      @apply text-blue-800 dark:text-blue-400;
+}
+</style>
