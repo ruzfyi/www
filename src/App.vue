@@ -6,7 +6,7 @@ import Link from './components/Link.vue'
       <div class="p-7 dark:bg-black dark:text-white">
             <div>
                   <h1 class="text-xl reactive-blue-text">churuz</h1>
-                  <h1 class="text-3xl">link.ruz.fyi</h1>
+                  <h1 class="text-3xl">link</h1>
                   <p class="text-sm">Links to my stuff</p>
                   <p class="text-sm reactive-blue-text decoration-solid"><a href="mailto:chu@ruz.fyi">chu@ruz.fyi</a></p>
             </div>
@@ -16,12 +16,17 @@ import Link from './components/Link.vue'
             <Link
                   title="GitHub"
                   description="My GitHub where all my projects are stored"
-                  url="https://github.com/churuzzz"
+                  url="https://github.com/churuz-fyi"
+            />
+            <Link
+                  title="GitHub Repos"
+                  description="All the random stuff I work on"
+                  url="https://github.com/churuz-fyi?tab=repositories"
             />
             <Link
                   title="Twitter"
                   description="I might say something, probably won't"
-                  url="https://x.com/churruzzz"
+                  url="https://x.com/churruz_fyi"
             />
             <Link
                   title="BlueSky"
