@@ -16,12 +16,12 @@ import Link from './components/Link.vue'
             <Link
                   title="GitHub"
                   description="My GitHub where all my projects are stored"
-                  url="https://github.com/churuz-fyi"
+                  url="https://github.com/churuzfyi"
             />
             <Link
                   title="GitHub Repos"
                   description="All the random stuff I work on"
-                  url="https://github.com/churuz-fyi?tab=repositories"
+                  url="https://github.com/churuzfyi?tab=repositories"
             />
             <Link
                   title="Twitter"
