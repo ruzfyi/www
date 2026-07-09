@@ -10,24 +10,22 @@
             <a :href=url target="_blank">
                   <div>
                         <h1 class="link-title">{{title}}</h1>
-                        <hr class="link-horizontal"/>
-                        <p class="link-description">{{description}}</p>
                   </div>
             </a>
-      </div>      
+      </div>
 </template>
 <style scoped>
 @reference "tailwindcss";
 .link-title {
-      @apply text-xl font-mono font-bold;
+      @apply text-xl font-mono font-bold inline-block;
 }
-.link-description {
-      @apply font-mono text-sm;
-}
+/*.link-description {
+      @apply font-mono text-sm inline-block;
+}*/
 .link-horizontal {
       @apply border-gray-400 border;
 }
 .link-container {
-      @apply font-mono border-2 border-black p-3 hover:bg-blue-800 hover:text-white hover:border-white transition-all dark:bg-black dark:text-white dark:border-white;
+      @apply font-mono border-2 border-black p-3 hover:bg-blue-800 hover:text-white hover:border-white transition-all dark:bg-black dark:text-white dark:border-white text-center rounded-sm;
 }
 </style>

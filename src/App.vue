@@ -3,62 +3,44 @@ import Link from './components/Link.vue'
 </script>
 
 <template>
-      <div class="p-7 dark:bg-black dark:text-white">
-            <div>
-                  <h1 class="text-xl reactive-blue-text">churuz</h1>
-                  <h1 class="text-3xl">link</h1>
+      <header class="p-7 m-auto sm:max-w-lg dark:bg-black dark:text-white">
+            <div class="text-left">
+                  <h1 class="text-3xl">links</h1>
                   <p class="text-sm">Links to my stuff</p>
                   <p class="text-sm reactive-blue-text decoration-solid"><a href="mailto:chu@ruz.fyi">chu@ruz.fyi</a></p>
             </div>
-      </div>
-      <hr class="border-2 border-black dark:border-gray-400"/>
-      <div class="m-auto my-3 sm:max-w-lg grid sm:grid-col-2 grid-col-1 gap-3 dark:bg-black">
-            <Link
-                  title="Site"
-                  description="Home site, which has info about me and my blog."
-                  url="https://ruz.fyi"
+      </header>
+      <div class="px-7 flex flex-col m-auto my-3 sm:max-w-lg gap-3 dark:bg-black">
+          <Link
+              title="GitHub"
+              url="https://github.com/ruzfyi"
+          />
+          <Link
+                  title="Repositories"
+                  url="https://github.com/ruzfyi?tab=repositories"
             />
             <Link
-                  title="GitHub"
-                  description="My GitHub where all my projects are stored"
-                  url="https://github.com/churuzfyi"
+              title="LinkedIn"
+              url="https://www.linkedin.com/in/jesus-ruiz-ramos-9591a5238"
             />
             <Link
-                  title="GitHub Repos"
-                  description="All the random stuff I work on"
-                  url="https://github.com/churuzfyi?tab=repositories"
+              title="BlueSky"
+              url="https://bsky.app/profile/ruz.fyi"
             />
             <Link
-                  title="BlueSky"
-                  description="I check Twitter but I don't really post on it"
-                  url="https://bsky.app/profile/bsky.chu.ruz.fyi"
+                  title="Mastodon"
+                  url="https://mastodon.social/@ruzfyi"
             />
             <Link
                   title="Steam"
-                  description="Check out what I play or friend me"
-                  url="https://steamcommunity.com/id/churuzfyi/"
+                  url="https://steamcommunity.com/id/magstermaster/"
             />
-            <Link
-                  title="Gunpla"
-                  description="I post pictures of my gunpla on here sometimes"
-                  url="https://www.instagram.com/z.chu.ruzzz/"
-            />
-            <Link
-                  title="Photos"
-                  description="I post photos I like here but I'll probably forget to"
-                  url="https://www.instagram.com/photos.chu.ruzzz/"
-            />
-            <Link
-                  title="YouTube Music"
-                  description="I have a lot of playlists"
-                  url="https://music.youtube.com/@chu.ruzzzz"
-            />
-            <div class="font-mono text-sm text-center sm:text-left sm:m-7 dark:text-white dark:bg-black">
+      </div>
+      <footer class="px-7 font-mono text-sm text-left m-auto my-3 sm:max-w-lg dark:text-white dark:bg-black">
                   <p>Made with <span class="reactive-blue-text"><a href="https://vuejs.org/" target="_blank">Vue</a></span> and <span class="reactive-blue-text"><a href="https://deno.com/" target="_blank">Deno</a></span></p>
                   <p>Source at <span class="reactive-blue-text"><a href="https://github.com/churuzfyi/link/" target="_blank">github.com/churuzfyi/link</a></span></p>
-            </div>
-      </div>
-      
+      </footer>
+
 </template>
 
 <style scoped>
