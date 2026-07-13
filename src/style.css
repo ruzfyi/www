@@ -2,9 +2,55 @@
 @import "tailwindcss";
 
 @theme {
-      --font-mono: "JetBrains Mono", monospace;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* ── Nord colorscheme ─────────────────────────── */
+  /* https://www.nordtheme.com/docs/colors-and-palettes */
+  /* Polar Night */
+  --color-nord-0: #2e3440;
+  --color-nord-1: #3b4252;
+  --color-nord-2: #434c5e;
+  --color-nord-3: #4c566a;
+  /* Snow Storm */
+  --color-nord-4: #d8dee9;
+  --color-nord-5: #e5e9f0;
+  --color-nord-6: #eceff4;
+  /* Frost */
+  --color-nord-7: #8fbcbb;
+  --color-nord-8: #88c0d0;
+  --color-nord-9: #81a1c1;
+  --color-nord-10: #5e81ac;
+  /* Aurora */
+  --color-nord-11: #bf616a;
+  --color-nord-12: #d08770;
+  --color-nord-13: #ebcb8b;
+  --color-nord-14: #a3be8c;
+  --color-nord-15: #b48ead;
+
+  /* ── Light theme semantic tokens ──────────────── */
+  --color-surface: #eceff4;
+  --color-on-surface: #2e3440;
+  --color-accent: #5e81ac;
+  --color-accent-hover: #81a1c1;
+}
+
+/* ── Dark theme – Nord Dark overrides ──────────── */
+.dark {
+  --color-surface: #191C29FF;
+  --color-on-surface: #d8dee9;
+  --color-accent: #88c0d0;
+  --color-accent-hover: #6c99a6;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-surface: #191C29FF;
+    --color-on-surface: #d8dee9;
+    --color-accent: #88c0d0;
+    --color-accent-hover: #6c99a6;
+  }
 }
 
 body {
-      @apply dark:bg-black font-mono;
+  @apply bg-surface text-on-surface font-mono;
 }
