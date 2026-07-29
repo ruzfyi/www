@@ -1,6 +1,27 @@
-# link.ruz.fyi
-My link-tree for social links I care for sharing onlline. Built on [Deno](https://deno.com/) and [Vue](https://vuejs.org/) using [Tailwind](https://tailwindcss.com/) for styling.
+```
+██╗  ██╗ ██████╗ ███╗   ███╗███████╗    ███████╗██╗████████╗███████╗
+██║  ██║██╔═══██╗████╗ ████║██╔════╝    ██╔════╝██║╚══██╔══╝██╔════╝
+███████║██║   ██║██╔████╔██║█████╗      ███████╗██║   ██║   █████╗  
+██╔══██║██║   ██║██║╚██╔╝██║██╔══╝      ╚════██║██║   ██║   ██╔══╝  
+██║  ██║╚██████╔╝██║ ╚═╝ ██║███████╗    ███████║██║   ██║   ███████╗
+╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝    ╚══════╝╚═╝   ╚═╝   ╚══════╝
+My personal landing page
+```
+*Fork of ruzfyi/link*
 
-Really simple static site that doesn't do much but does react accordingly to browser's lightmode/darkmode state thanks to Tailwind.
+---
+This is my personal site for showcasing projects, ranting about stuff, and getting my work in people's eyes while still showing it in as nerdy a way as possible.
 
-Really messy, made in a hurry.
+## Pages
+- **Home**: Link-tree like page.
+- **Activity**: Overview of my GitHub and GitLab activity.
+- **Blog**: A blog (running on a custom CMS).
+- **Secret**: Still planning what this should be.
+
+### Stack
+Vue + Tailwind on Deno for speed and simplicity.
+
+Fully containerized.
+
+# Development Note
+"Home page" is done (sort of) since I'm just reusing my existing link page for this. After I figure out getting *that* deployed I'll get to work converting this to what it needs to be. As it stands I should be able to get the Home and Activity pages up since they don't need any sort of backend to work. Once those are up and the site is published I'll get to work on that custom CMS I want.
