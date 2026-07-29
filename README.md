@@ -25,3 +25,6 @@ Fully containerized.
 
 # Development Note
 "Home page" is done (sort of) since I'm just reusing my existing link page for this. After I figure out getting *that* deployed I'll get to work converting this to what it needs to be. As it stands I should be able to get the Home and Activity pages up since they don't need any sort of backend to work. Once those are up and the site is published I'll get to work on that custom CMS I want.
+
+### Why the fancy title?
+Idk it just looks cool.
